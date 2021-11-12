@@ -4,9 +4,9 @@ import requests
 def print_baidu():
     res = requests.get("http://www.baidu.com")
     if res.status_code == 200:
-        print("changed yes")
+        print("changed new yes")
     else:
-        print("changed no")
+        print("changed new no")
 
 
 if __name__ == "__main__":
